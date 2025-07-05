@@ -14,7 +14,7 @@ import Plants from './Components/Plants';
 import Seeds from './Components/Seeds';
 import Bubls from './Components/Bubls';
 import Plots from './Components/Plots';
-import Fertilizer from './Components/fertilizer';
+import Fertilizer from './Components/Fertilizer';
 import Accessories from './Components/Accessories';
 import Login from './Components/Login';
 import Register from './Components/Register';
