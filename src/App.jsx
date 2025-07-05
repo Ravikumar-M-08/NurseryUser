@@ -18,7 +18,6 @@ import Fertilizer from './Components/Fertilizer';
 import Accessories from './Components/Accessories';
 import Login from './Components/Login';
 import Register from './Components/Register';
-import Gallery from './Components/Gallery';
 
 
 function App() {
@@ -31,8 +30,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home cart={cart} setcart={setcart} quantity={quantity} setquantity={setquantity} />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/gallery" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart cart={cart} setcart={setcart} quantity={quantity} setquantity={setquantity}/>} />
           <Route path="/gardening" element={<Gardening cart={cart} setcart={setcart} quantity={quantity} setquantity={setquantity}  />} />
           <Route path="/plants" element={<Plants cart={cart} setcart={setcart} quantity={quantity} setquantity={setquantity} />} />
