@@ -36,7 +36,7 @@ const Accessories = ({ cart, setcart }) => {
     <>
       <div className="container-fulid">
         <div className="gardening-head">
-          <img src="public/image/garden/accessories.jpg" alt="img" />
+          <img src="/image/garden/accessories.jpg" alt="img" />
           <h3 className="title">Accessories</h3>
         </div>
         <div className="container">

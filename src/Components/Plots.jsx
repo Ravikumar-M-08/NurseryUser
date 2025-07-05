@@ -36,7 +36,7 @@ const Plots = ({ cart, setcart }) => {
     <>
       <div className="container-fulid">
         <div className="gardening-head">
-          <img src="public/image/garden/plots.jpg" alt="img" />
+          <img src="/image/garden/plots.jpg" alt="img" />
           <h3 className="title">Pots</h3>
         </div>
         <div className="container">

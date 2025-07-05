@@ -36,7 +36,7 @@ const Bubls = ({ cart, setcart }) => {
     <>
       <div className="container-fulid">
         <div className="gardening-head">
-          <img src="public/image/garden/bubls.jpg" alt="img" />
+          <img src="/image/garden/bubls.jpg" alt="img" />
           <h3 className="title">Bubls</h3>
         </div>
         <div className="container">

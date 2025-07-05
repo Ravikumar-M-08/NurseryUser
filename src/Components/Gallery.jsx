@@ -5,7 +5,7 @@ const Gallery = () => {
         <>
             <div className="container-fulid">
                 <div className="gardening-head">
-                    <img src="public/image/gallery/gallery.jpg" alt=""/>
+                    <img src="/image/gallery/gallery.jpg" alt=""/>
                         <h3 className="title">Gardening</h3>
 
                 </div>
@@ -42,77 +42,77 @@ const Gallery = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img1.jpg" alt=""/>
+                            <img src="/image/gallery/img1.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img2.jpg" alt=""/>
+                            <img src="/image/gallery/img2.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img3.jpg" alt=""/>
+                            <img src="/image/gallery/img3.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-5 col-md-5 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img4.jpg" alt=""/>
+                            <img src="/image/gallery/img4.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-7 col-md-7 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img5.jpg" alt=""/>
+                            <img src="/image/gallery/img5.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-7 col-md-7 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/iimg7.jpg" alt=""/>
+                            <img src="/image/gallery/iimg7.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-5 col-md-5 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img8.jpg" alt=""/>
+                            <img src="/image/gallery/img8.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-5 col-md-5 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img9.jpg" alt=""/>
+                            <img src="/image/gallery/img9.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img10.jpg" alt=""/>
+                            <img src="/image/gallery/img10.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img11.jpg" alt=""/>
+                            <img src="/image/gallery/img11.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img12.jpg" alt=""/>
+                            <img src="/image/gallery/img12.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img13.jpg" alt=""/>
+                            <img src="/image/gallery/img13.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img14.jpg" alt=""/>
+                            <img src="/image/gallery/img14.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img15.jpg" alt=""/>
+                            <img src="/image/gallery/img15.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-5 col-md-5 col-12">
                         <div className="gal-img">
-                            <img src="public/image/gallery/img16.jpg" alt=""/>
+                            <img src="/image/gallery/img16.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
