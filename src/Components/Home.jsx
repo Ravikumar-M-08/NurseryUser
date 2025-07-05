@@ -198,7 +198,7 @@ const Home = ({cart, setcart}) => {
                             <div className="content">
                                 <h2>A Living Gift - Upto 30% Off</h2>
                                 <h5 className="mb-4">Express True Emotions with gift that grows forever.</h5>
-                                <img src="public/image/home/sub_image1.png" alt="" />
+                                <img src="/image/home/sub_image1.png" alt="" />
                                 <a href="">Shop Now</a>
                             </div>
                         </div>
