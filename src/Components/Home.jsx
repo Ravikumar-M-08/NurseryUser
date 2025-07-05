@@ -1,6 +1,5 @@
 import axios from 'axios';
 import React, { useEffect, useRef, useState } from 'react';
-// import Data from "./Data.json";
 const Home = ({cart, setcart}) => {
     const carouselRef = useRef(null);
     const listRef = useRef(null);
