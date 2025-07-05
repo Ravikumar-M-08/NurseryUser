@@ -26,7 +26,7 @@ function Nav() {
 							</li>
 
 							<li className="nav-item">
-								<Link to="/gallery" className={`nav-link ${location.pathname === '/gallery' ? 'active' : ''}`}>About</Link>
+								<Link to="/gallery" className={`nav-link ${location.pathname === '/gallery' ? 'active' : ''}`}>Gallery</Link>
 							</li>
 							<li className="nav-item">
 								<Link to="/contact" className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}>Contact</Link>
