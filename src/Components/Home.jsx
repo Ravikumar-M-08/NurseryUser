@@ -110,7 +110,7 @@ const Home = ({cart, setcart}) => {
                 <div className="carousel" ref={carouselRef}>
                     <div className="list" ref={listRef}>
                         {[
-                            { title: 'EAGLE', img: 'public/image/home/carousal4.jpg' },
+                            { title: 'EAGLE', img: '/image/home/carousal4.jpg' },
                             { title: 'OWL', img: '/image/home/carousal1.jpg' },
                             { title: 'CROW', img: '/image/home/carousal2.jpg' },
                             { title: 'BUTTERFLY', img: '/image/home/carousal3.avif' },
