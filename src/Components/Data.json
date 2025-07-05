@@ -1,0 +1,49 @@
+{
+    "product":[
+        {   
+            "product_id":1,
+            "product_image":"public/image/home/product1.avif",
+            "product_name":"lorem import",
+            "product_old_price":250,
+            "product_new_price":219,
+            "discount":15,
+            "discription":"The various Adenium species are succulent plants that can be grown in our climate, either indoors or outside. They produce flowers that are truly spectacular for container grown plants. ” Comes in a Black Pot “."
+        },
+        {   
+            "product_id":2,
+            "product_image":"public/image/home/product2.avif",
+            "product_name":"lorem import",
+            "product_old_price":230,
+            "product_new_price":209,
+            "discount":10,   
+            "discription":"The various Adenium species are succulent plants that can be grown in our climate, either indoors or outside. They produce flowers that are truly spectacular for container grown plants. ” Comes in a Black Pot “."
+        },
+        {   
+            "product_id":3,
+            "product_image":"public/image/home/product3.jpg",
+            "product_name":"lorem import",
+            "product_old_price":270,
+            "product_new_price":259,
+            "discount":9,
+            "discription":"The various Adenium species are succulent plants that can be grown in our climate, either indoors or outside. They produce flowers that are truly spectacular for container grown plants. ” Comes in a Black Pot “."
+        },
+        {   
+            "product_id":4,
+            "product_image":"public/image/home/product4.avif",
+            "product_name":"lorem import",
+            "product_old_price":250,
+            "product_new_price":219,
+            "discount":11,
+            "discription":"The various Adenium species are succulent plants that can be grown in our climate, either indoors or outside. They produce flowers that are truly spectacular for container grown plants. ” Comes in a Black Pot “."
+        },
+        {   
+            "product_id":5,
+            "product_image":"public/image/home/product5.jpg",
+            "product_name":"lorem import",
+            "product_old_price":220,
+            "product_new_price":199,
+            "discount":20,
+            "discription":"The various Adenium species are succulent plants that can be grown in our climate, either indoors or outside. They produce flowers that are truly spectacular for container grown plants. ” Comes in a Black Pot “."
+        }
+    ]
+}
