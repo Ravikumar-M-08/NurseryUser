@@ -208,7 +208,7 @@ const Home = ({cart, setcart}) => {
                             <div className="content">
                                 <h2>Organic Seeds - 50% off</h2>
                                 <h5 className="mb-4">Best quality seeds for organic lovers.No chemical No preservatives</h5>
-                                <img src="public/image/home/sub_image2.png" alt="" />
+                                <img src="/image/home/sub_image2.png" alt="" />
                                 <a href="">Shop Now</a>
                             </div>
                         </div>
@@ -218,7 +218,7 @@ const Home = ({cart, setcart}) => {
                             <div className="content">
                                 <h2>Microgreen Seeds - 50% Off</h2>
                                 <h5 className="mb-4">Grow own food full of nutrients,flavour,and freshness</h5>
-                                <img src="public/image/home/sub_image3.png" alt="" />
+                                <img src="/image/home/sub_image3.png" alt="" />
                                 <a href="">Shop Now</a>
                             </div>
                         </div>
@@ -228,7 +228,7 @@ const Home = ({cart, setcart}) => {
                             <div className="content">
                                 <h2>Miniature Garden - Upto 30% Off</h2>
                                 <h5 className="mb-4">Enjoy a living gerden environment spaces</h5>
-                                <img src="public/image/home/sub_image4.png" alt="" />
+                                <img src="/image/home/sub_image4.png" alt="" />
                                 <a href="">Shop Now</a>
                             </div>
                         </div>
@@ -238,7 +238,7 @@ const Home = ({cart, setcart}) => {
                             <div className="content">
                                 <h2>Event Gifts - Starting &#8377;119</h2>
                                 <h5 className="mb-4">Enjoy a living gerden environment spaces</h5>
-                                <img src="public/image/home/sub_image5.png" alt="" />
+                                <img src="/image/home/sub_image5.png" alt="" />
                                 <a href="">Shop Now</a>
                             </div>
                         </div>
