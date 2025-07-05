@@ -632,9 +632,10 @@ a {
 
 @media screen and (max-width: 690px) {
 
-    .carousel .carousel .list .item {
+    .carousel  .list .item {
         width: 100px;
         height: 150px;
+        left: 10px;
     }
 
     .list .item .content {
