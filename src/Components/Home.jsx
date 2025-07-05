@@ -113,7 +113,7 @@ const Home = ({cart, setcart}) => {
                             { title: 'EAGLE', img: '/image/home/carousal4.jpg' },
                             { title: 'OWL', img: '/image/home/carousal1.jpg' },
                             { title: 'CROW', img: '/image/home/carousal2.jpg' },
-                            { title: 'BUTTERFLY', img: '/image/home/plain.jpg' },
+                            { title: 'BUTTERFLY', img: '/image/home/carousal3.avif' },
                         ].map((item, index) => (
                             <div className="item" key={index} style={{ backgroundImage: `url(${item.img})` }}>
                                 <div className="content">
