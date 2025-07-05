@@ -305,7 +305,7 @@ const Home = ({cart, setcart}) => {
                             <div className="content">
                                 <h2>Planters - Startign &#8377;129</h2>
                                 <h5 className="mb-4">Add Color to your Garden.200+ pots of different colors,shapes, material.</h5>
-                                <img src="public/image/home/sub_image6.png" alt="" />
+                                <img src="/image/home/sub_image6.png" alt="" />
                                 <a href="">Shop Now</a>
                             </div>
                         </div>
@@ -316,7 +316,7 @@ const Home = ({cart, setcart}) => {
                                 <h2>Pebbles - Starting &#8377;79</h2>
                                 <h5 className="mb-4">Add Visual and textural features to your garden with a wide range of natural
                                     pebbles</h5>
-                                <img src="public/image/home/sub_image7.png" alt="" />
+                                <img src="/image/home/sub_image7.png" alt="" />
                                 <a href="">Shop Now</a>
                             </div>
                         </div>
@@ -326,7 +326,7 @@ const Home = ({cart, setcart}) => {
                             <div className="content">
                                 <h2>Tools - Starting &#8377;129</h2>
                                 <h5 className="mb-4">Get a tool for every gardening activity and make it fun experience.</h5>
-                                <img src="public/image/home/sub_image9.png" alt="" />
+                                <img src="/image/home/sub_image9.png" alt="" />
                                 <a href="">Shop Now</a>
                             </div>
                         </div>
@@ -337,7 +337,7 @@ const Home = ({cart, setcart}) => {
                                 <h2>Soil & Fertilizers - Starting &#8377;100</h2>
                                 <h5 className="mb-4">Healthy food is a key for healthy plants.choose from a wide range of soil and
                                     fertiliers. </h5>
-                                <img src="public/image/home/sub_image8.png" alt="" />
+                                <img src="/image/home/sub_image8.png" alt="" />
                                 <a href="">Shop Now</a>
                             </div>
                         </div>

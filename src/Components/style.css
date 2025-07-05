@@ -297,15 +297,15 @@ a {
 }
 
 .banner1 {
-    background-image: url(public/image/home/banner1.jpg);
+    background-image: url(/image/home/banner1.jpg);
 }
 
 .banner2 {
-    background-image: url(public/image/home/banner1.jpg);
+    background-image: url(/image/home/banner1.jpg);
 }
 
 .banner3 {
-    background-image: url(public/image/home/banner1.jpg);
+    background-image: url(/image/home/banner1.jpg);
 }
 
 .banner .content {
