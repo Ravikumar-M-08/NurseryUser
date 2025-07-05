@@ -12,7 +12,7 @@ import Footer from './Components/Footer';
 import Gardening from './Components/Gardening';
 import Plants from './Components/Plants';
 import Seeds from './Components/Seeds';
-import Bubls from './Components/bubls';
+import Bubls from './Components/Bubls';
 import Plots from './Components/Plots';
 import Fertilizer from './Components/fertilizer';
 import Accessories from './Components/Accessories';
