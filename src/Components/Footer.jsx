@@ -11,7 +11,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-12">
-                            <img src="public/image/logo.png" alt="" width="100%" />
+                            <img src="/image/logo.png" alt="" width="100%" />
                                 <div className="logo">
                                     <ul className="d-flex justify-content-evenly">
                                         <li>
