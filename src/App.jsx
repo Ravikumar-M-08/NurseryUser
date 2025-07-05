@@ -18,8 +18,8 @@ import Fertilizer from './Components/Fertilizer';
 import Accessories from './Components/Accessories';
 import Login from './Components/Login';
 import Register from './Components/Register';
-import Control from './Components/Control';
-// import Addtocart from './Components/Addtocart';
+import Gallery from './Components/Gallery';
+
 
 function App() {
   const [cart,setcart] = useState([]);
@@ -32,7 +32,7 @@ function App() {
           <Route path="/" element={<Home cart={cart} setcart={setcart} quantity={quantity} setquantity={setquantity} />} />
           <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/cart" element={<Cart cart={cart} setcart={setcart} quantity={quantity} setquantity={setquantity}/>} />
           <Route path="/gardening" element={<Gardening cart={cart} setcart={setcart} quantity={quantity} setquantity={setquantity}  />} />
           <Route path="/plants" element={<Plants cart={cart} setcart={setcart} quantity={quantity} setquantity={setquantity} />} />
@@ -43,7 +43,7 @@ function App() {
           <Route path="/accessories" element={<Accessories cart={cart} setcart={setcart} quantity={quantity} setquantity={setquantity} />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/control" element={<Control cart={cart} setcart={setcart} quantity={quantity} setquantity={setquantity}/>} />
+
         </Routes>
         <Footer/>
       </BrowserRouter>  

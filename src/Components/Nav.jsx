@@ -29,7 +29,7 @@ function Nav() {
 								<Link to="/about" className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}>About</Link>
 							</li>
 							<li className="nav-item">
-								<Link to="/contact" className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}>Contact</Link>
+								<Link to="/gallery" className={`nav-link ${location.pathname === '/gallery' ? 'active' : ''}`}>Contact</Link>
 							</li>
 							<li className="nav-item">
 								<Link to="/cart" className={`nav-link ${location.pathname === '/cart' ? 'active' : ''}`} >cart</Link>
