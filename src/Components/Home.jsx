@@ -97,7 +97,7 @@ const Home = ({cart, setcart}) => {
     },[])
 
     async function trigger(){
-        const values = await axios.get("http://localhost:8080/data")
+        const values = await axios.get("https://nurseryspring.onrender.com/data")
         getData(values.data)
     }
 
