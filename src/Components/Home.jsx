@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import React, { useEffect, useRef, useState } from 'react';
 const Home = ({cart, setcart}) => {
     const carouselRef = useRef(null);
@@ -97,8 +97,10 @@ const Home = ({cart, setcart}) => {
     },[])
 
     async function trigger(){
-        const values = await axios.get("https://nurseryspring.onrender.com/data")
-        getData(values.data)
+        fetch("https://nurseryspring.onrender.com/data")
+            .then(res => res.json())
+            .then(data => getData(data))
+            .catch(err => console.error(err));
     }
 
 
