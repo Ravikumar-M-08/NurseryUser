@@ -89,7 +89,13 @@ const Cart = ({ cart }) => {
                                             <td>Enter your address to view shipping options.
                                                 <span data-bs-toggle="collapse" href="#collapseExample">Calculate shipping</span></td>
                                             <div className="collapse" id="collapseExample">
-
+                                                <form action="" method="post">
+                                                    <input type="text" placeholder='Enter Name:'/>
+                                                    <input type="email" placeholder='Enter Email:'/>
+                                                    <input type="number" placeholder='Enter PhoneNumber:'/>
+                                                    <input type="text" placeholder='Enter Address:'/>
+                                                    <input type="number" placeholder='Enter PinCode:'/>
+                                                </form>
                                             </div>
                                         </div>
                                     </tr>
