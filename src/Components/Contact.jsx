@@ -14,7 +14,7 @@ const Contact = () => {
                     <div className="container-left">
                         <h3>Fill the Form*</h3>
                         {/* <!-- Form --> */}
-                        <form id="contactForm" method="post" action="http://localhost:8080/SendEnquiry">
+                        <form id="contactForm" method="post" action="https://nurseryspring.onrender.com/SendEnquiry">
                             <div className="input-row">
                                 <div className="input-group">
                                     <label>Name*</label>
