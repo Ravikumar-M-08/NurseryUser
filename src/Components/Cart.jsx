@@ -63,7 +63,7 @@ const Cart = ({ cart }) => {
                                         min={1}
                                         value={quantities[product.productId] || 1}
                                         onChange={(e) => handleQtyChange(product.productId, e)}
-                                        className="form-control w-25"
+                                        className="form-control w-50"
                                     />
                                 </div>
                             </div>
