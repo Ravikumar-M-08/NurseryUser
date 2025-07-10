@@ -924,6 +924,9 @@ footer .connect p {
     h5 {
         margin: 0;
     }
+    .PriceQuantity{
+        width: 100%;
+    }
 
 }
 
