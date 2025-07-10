@@ -55,8 +55,8 @@ const Cart = ({ cart }) => {
                             <div className='PriceDetails'>
                                 <p>Price: ₹{product.productprice}</p>
                             </div>
-                            <div>
-                                <div className="d-flex align-items-center justify-content-start w-100">
+                            <div className='w-100'>
+                                <div className="d-flex align-items-center justify-content-start ">
                                     <label className="me-2">Qty:</label>
                                     <input
                                         type="number"
