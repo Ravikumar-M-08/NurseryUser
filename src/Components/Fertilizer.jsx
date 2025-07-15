@@ -36,7 +36,7 @@ const Fertilizer = ({ cart, setcart }) => {
     <>
       <div className="container-fulid">
         <div className="gardening-head">
-          <img src="/image/garden/accessories.jpg" alt="img" />
+          <img src="/image/garden/fertilizer.jpg" alt="img" />
           <h3 className="title">Fertilizers</h3>
         </div>
         <div className="container">
