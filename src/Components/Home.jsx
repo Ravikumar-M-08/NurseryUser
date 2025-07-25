@@ -15,7 +15,7 @@ const Home = ({ cart, setcart }) => {
         const runningTime = runningTimeRef.current;
 
         let timeRunning = 3000;
-        let timeAutoNext = 7000;
+        let timeAutoNext = 6000;
         let runTimeOut;
         let runNextAuto;
 
