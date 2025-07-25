@@ -482,7 +482,7 @@ a {
     line-height: 1;
     opacity: 0;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .content .name {
@@ -491,7 +491,7 @@ a {
     font-weight: bold;
     line-height: 1;
     text-shadow: 3px 4px 4px rgba(255, 255, 255, 0.8);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
 }
@@ -499,12 +499,13 @@ a {
 .content .des {
     font-size: 18px;
     opacity: 0;
+    margin-bottom: 20px;
     animation: animate 1s ease-in-out 0.9s 1 forwards;
 }
 
 .content .btn {
     margin-left: 5px;
-
+    margin-bottom:20px;
     opacity: 0;
     animation: animate 1s ease-in-out 1.2s 1 forwards;
 }
