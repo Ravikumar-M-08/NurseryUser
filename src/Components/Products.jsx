@@ -48,14 +48,14 @@ const Products = () => {
                             </div>
                         </div>
                         <div className="products">
-                            <img src="/image/products/products6.jpg" alt="" />
+                            <img src="/image/products/products7.jpg" alt="" />
                             <div className="goto">
                                 <p>Fertilizer</p>
                                 <Link to='/fertilizer'>Explore</Link>
                             </div>
                         </div>
                         <div className="products">
-                            <img src="/image/products/products7.jpg" alt="" />
+                            <img src="/image/products/products6.jpg" alt="" />
                             <div className="goto">
                                 <p>Accessories</p>
                                 <Link to='/accessories'>Explore</Link>
