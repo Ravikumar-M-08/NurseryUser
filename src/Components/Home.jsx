@@ -146,6 +146,7 @@ const Home = ({cart, setcart}) => {
                                                 <img src={info.productImg} alt="" width="100%" height="230px" />
                                             </div>
                                             <div>
+                                                <span>{info.productDescription}</span>
                                                 <p>{info.productName}</p>
                                                 <span className="price"><span>&#8377;{info.productprice}</span></span>
                                                 <span className="discount">10% off</span>
