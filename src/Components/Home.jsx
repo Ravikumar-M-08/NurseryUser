@@ -110,16 +110,16 @@ const Home = ({cart, setcart}) => {
                 <div className="carousel" ref={carouselRef}>
                     <div className="list" ref={listRef}>
                         {[
-                            { title: 'EAGLE', img: '/image/home/carousal4.jpg' },
-                            { title: 'OWL', img: '/image/home/carousal1.jpg' },
-                            { title: 'CROW', img: '/image/home/carousal2.jpg' },
-                            { title: 'BUTTERFLY', img: '/image/home/carousal3.avif' },
+                            { head:"Plant today",title: 'grow tomorrow', description:"Bringing nature closer to your home", img: '/image/home/carousal4.jpg' },
+                            { head:"Sow a seed",title: 'spark a future', description:"Let your garden bloom with purpose", img: '/image/home/carousal1.jpg' },
+                            { head:"Breathe easy",title: 'live green', description:"Bringing freshness right to your door", img: '/image/home/carousal2.jpg' },
+                            { head:"Grow peace",title: 'one plant at a time', description:"Nature’s touch in every corner", img: '/image/home/carousal3.avif' },
                         ].map((item, index) => (
                             <div className="item" key={index} style={{ backgroundImage: `url(${item.img})` }}>
                                 <div className="content">
-                                    <div className="title">Happiness</div>
+                                    <div className="title">{item.head}</div>
                                     <div className="name">{item.title}</div>
-                                    <div className="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                                    <div className="des">{item.description}</div>
                                     <div className="btn"><a href="#">Shop Now</a></div>
                                 </div>
                             </div>
