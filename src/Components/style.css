@@ -170,7 +170,8 @@ a {
 .product_card p {
     margin: 0px;
     color: #000;
-    height:10vh;
+    font-size:30px;
+    text-wrap: wrap;
 }
 
 .product_card .price {
