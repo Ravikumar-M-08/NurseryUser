@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useRef, useState } from 'react';
-const Home = ({cart, setcart}) => {
+const Home = ({ cart, setcart }) => {
     const carouselRef = useRef(null);
     const listRef = useRef(null);
     const nextBtnRef = useRef(null);
@@ -22,8 +22,7 @@ const Home = ({cart, setcart}) => {
         const resetTimeAnimation = () => {
             if (runningTime) {
                 runningTime.style.animation = 'none';
-                // Force reflow
-                runningTime.offsetHeight;
+                runningTime.offsetHeight; // force reflow
                 runningTime.style.animation = null;
                 runningTime.style.animation = 'runningTime 7s linear 1 forwards';
             }
@@ -33,16 +32,16 @@ const Home = ({cart, setcart}) => {
             const sliderItemsDom = list.querySelectorAll('.item');
             if (type === 'next') {
                 list.appendChild(sliderItemsDom[0]);
-                carousel.classNameList.add('next');
+                carousel.classList.add('next');
             } else {
                 list.prepend(sliderItemsDom[sliderItemsDom.length - 1]);
-                carousel.classNameList.add('prev');
+                carousel.classList.add('prev');
             }
 
             clearTimeout(runTimeOut);
             runTimeOut = setTimeout(() => {
-                carousel.classNameList.remove('next');
-                carousel.classNameList.remove('prev');
+                carousel.classList.remove('next');
+                carousel.classList.remove('prev');
             }, timeRunning);
 
             clearTimeout(runNextAuto);
@@ -69,6 +68,7 @@ const Home = ({cart, setcart}) => {
         };
     }, []);
 
+
     // const setdata = document.getElementById('setdata');
     const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -77,26 +77,26 @@ const Home = ({cart, setcart}) => {
         setSelectedProduct(product);
     };
 
-    const addTocart=(product)=>{
-        const existing = cart.find((item)=> item.productId === product.productId);
-        if(existing){
+    const addTocart = (product) => {
+        const existing = cart.find((item) => item.productId === product.productId);
+        if (existing) {
             alert("This Product is Already in Cart...");
-            const updatedCart = cart.map((item)=>
-                item.productId === product.productId ? {...item, quantity:item.quantity+1} : item
+            const updatedCart = cart.map((item) =>
+                item.productId === product.productId ? { ...item, quantity: item.quantity + 1 } : item
             );
             setcart(updatedCart)
-        }else{
-            setcart([...cart,{...product,quantity:1}]);
+        } else {
+            setcart([...cart, { ...product, quantity: 1 }]);
         }
     }
 
-    const[Data,getData] = useState([])
+    const [Data, getData] = useState([])
 
-    useEffect(()=>{
+    useEffect(() => {
         trigger()
-    },[])
+    }, [])
 
-    async function trigger(){
+    async function trigger() {
         const values = await axios.get("https://nurseryspring.onrender.com/data")
         console.log(values.data);
         getData(values.data)
@@ -110,10 +110,10 @@ const Home = ({cart, setcart}) => {
                 <div className="carousel" ref={carouselRef}>
                     <div className="list" ref={listRef}>
                         {[
-                            { head:"Plant today",title: 'grow tomorrow', description:"Bringing nature closer to your home", img: '/image/home/carousal4.jpg' },
-                            { head:"Sow a seed",title: 'spark a future', description:"Let your garden bloom with purpose", img: '/image/home/carousal1.jpg' },
-                            { head:"Breathe easy",title: 'live green', description:"Bringing freshness right to your door", img: '/image/home/carousal2.jpg' },
-                            { head:"Grow peace",title: 'one plant at a time', description:"Nature’s touch in every corner", img: '/image/home/carousal3.avif' },
+                            { head: "Plant today", title: 'grow tomorrow', description: "Bringing nature closer to your home", img: '/image/home/carousal4.jpg' },
+                            { head: "Sow a seed", title: 'spark a future', description: "Let your garden bloom with purpose", img: '/image/home/carousal1.jpg' },
+                            { head: "Breathe easy", title: 'live green', description: "Bringing freshness right to your door", img: '/image/home/carousal2.jpg' },
+                            { head: "Grow peace", title: 'one plant at a time', description: "Nature’s touch in every corner", img: '/image/home/carousal3.avif' },
                         ].map((item, index) => (
                             <div className="item" key={index} style={{ backgroundImage: `url(${item.img})` }}>
                                 <div className="content">
