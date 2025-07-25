@@ -117,7 +117,7 @@ const Home = ({cart, setcart}) => {
                         ].map((item, index) => (
                             <div className="item" key={index} style={{ backgroundImage: `url(${item.img})` }}>
                                 <div className="content">
-                                    <div className="title">SLIDER</div>
+                                    <div className="title">Happiness</div>
                                     <div className="name">{item.title}</div>
                                     <div className="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
                                     <div className="btn"><a href="#">Shop Now</a></div>
